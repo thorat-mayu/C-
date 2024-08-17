@@ -1,0 +1,34 @@
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int a = 6,b= 4;
+    
+    cout<<"a==b is" <<(a==b) <<endl;
+    
+cout<<"a>b is" <<(a>b) <<endl;
+
+cout<<"a>=b is" <<(a>=b) <<endl;
+
+cout<<"a<b is" <<(a<b) <<endl;
+
+cout<<"a<=b is" <<(a<=b) <<endl;
+
+cout<<"a!=b is" <<(a!=b) <<endl;
+
+    return 0;
+}
+
+output=
+/tmp/xPs4nICWe6.o
+a==b is0
+a>b is1
+a>=b is1
+a<b is0
+a<=b is0
+a!=b is1
+
+
+=== Code Execution Successful ===
