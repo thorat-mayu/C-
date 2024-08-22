@@ -1,0 +1,36 @@
+/ Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+
+int main()
+{
+  int first,second,add,subtract,multiply;
+  float divide;
+  
+  cout<<"please enter two integer:";
+  cin>>first;
+  cin>>second;
+  
+  add=first+second;
+  subtract=first-second;
+  multiply=first*second;
+//   divide=first/second;
+
+cout<<endl<<"sum="<<add;
+cout<<endl<<"difference="<<subtract;
+cout<<endl<<"multipication="<<multiply;
+cout<<endl<<"division="<<divide;
+  
+    return 0;
+}
+output=
+/tmp/o2KUpYd3S0.o
+please enter two integer:23
+24
+
+sum=47
+difference=-1
+multipication=552
+division=5.90023e-31
+
+=== Code Execution Successful ===
