@@ -1,0 +1,48 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main()
+{
+    string str = "Hello";
+    // Concatenation
+    string greeting = str + ", World!";
+    cout << "Concatenation: " << greeting << endl;
+
+    // Substring
+    string part = greeting.substr(7, 5); // Extracts "World"
+    cout << "Substring: " << part << endl;
+
+    // Find
+    size_t pos = greeting.find("World");
+    cout << "Find: 'World' found at position " << pos << endl;
+
+    // Replace
+    string replaced = greeting;
+    replaced.replace(pos, 5, "C++");
+    cout << "Replace: " << replaced << endl;
+
+    // Insert at new position (changing 5 to 6)
+    string inserted = greeting;
+    inserted.insert(6, " beautiful"); // Inserts at position 6 now
+    cout << "Insert: " << inserted << endl;
+
+    // Erase with new parameters (changing 5 and 7 to 6 and 9)
+    string erased = greeting;
+    erased.erase(6, 9); // Erases starting from position 6 for 9 characters
+    cout << "Erase: " << erased << endl;
+
+    // Change value to uppercase manually
+    string uppercase = "HELLO, WORLD!";
+    cout << "Uppercase: " << uppercase << endl;
+
+    return 0;
+}
+
+OUTPUT=
+Concatenation: Hello, World!
+Substring: World
+Find: 'World' found at position 7
+Replace: Hello, C++!
+Insert: Hello beautiful, World!
+Erase: Hello, !
