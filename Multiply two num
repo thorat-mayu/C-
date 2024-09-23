@@ -1,0 +1,24 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int divisor = 4;  // Change the divisor value here
+    int dividend = 20; // Change the dividend value here
+    int quotient, remainder;
+
+    quotient = dividend / divisor;
+    remainder = dividend % divisor;
+
+    cout << "Dividend = " << dividend << endl;
+    cout << "Divisor = " << divisor << endl;
+    cout << "Quotient = " << quotient << endl;
+    cout << "Remainder = " << remainder;
+
+    return 0;
+}
+
+Output =
+Dividend = 20
+Divisor = 4
+Quotient = 5
+Remainder = 0
