@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a = 15, b = 20;
+    cout << "Before swapping." << endl;
+    cout << "a = " << a << ", b = " << b << endl;
+
+    // Swapping without temporary variable
+    a = a + b;  // a now becomes 35
+    b = a - b;  // b becomes 15 (original a)
+    a = a - b;  // a becomes 20 (original b)
+
+    cout << "\nAfter swapping." << endl;
+    cout << "a = " << a << ", b = " << b << endl;
+    
+    return 0;
+}
+
+Output =
+
+Before swapping: a = 15, b = 20
+After swapping: a = 20, b = 15
