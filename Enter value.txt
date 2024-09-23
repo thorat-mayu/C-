@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int number = 42; // Assign a specific value to the variable
+    cout << "You entered " << number; // Display the value
+    return 0;
+}
+Output =
+
+You entered 42
